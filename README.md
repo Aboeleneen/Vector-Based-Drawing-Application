@@ -1,5 +1,7 @@
 # Vector-Based-Drawing-Application
-desktop application mimics painter app features to draw most of geometric shapes with move, resize, undo, redo, save and load using java and applying object oriented programming concept.
+desktop application mimics painter app features to draw most of geometric shapes with move, resize, undo, redo, save and load using java and applying object oriented programming concept. [jar file ](https://github.com/Aboeleneen/Vector-Based-Drawing-Application/raw/master/paint.jar)
+
+![](screen.png)
 
 
 ## Features :
@@ -14,6 +16,25 @@ desktop application mimics painter app features to draw most of geometric shapes
   - Change the stroke thickness. 
   - Change the transparent of shapes.
   - Create a new grid using the new option.
+
+## user manual :
+![](https://github.com/Aboeleneen/Vector-Based-Drawing-Application/blob/master/user%20manual.png)
+  1. Radio button to select NoFill mode to draw a shape without fill color or FillSolidColor mode to draw a complete shape.
+  2. Six buttons to select the shape which you want to
+  draw by click on it.
+  3.slider to change the thickness of the shape.
+  4.slider to change the transparent of the shape.
+  5. colorChooser to select stroke color.
+  6. colorChooser to select fill color. 
+  7. Button to change the fill color of the selected shape by clicking on the button then clicking on the shape.
+  8. To remove the shape after selecting it.
+  9. Button to copy the selected shape.
+  10. Button to paste the copied shape then you can move it a new position.
+  11. fileChooser to select a position to save the program and load it later
+  12. fileChooser to select a position to save a screen shot of program .
+  13. fileChooser to select a file with extension xml or json to load it to the program.
+  14. Button to clear the grid and make a new one.
+  15. Undo and redo actions . 
   
 ## code design :
   - Shape2D Class :
@@ -39,6 +60,3 @@ desktop application mimics painter app features to draw most of geometric shapes
     - To save shapes in json file and load it later. 
   - Xml class :
     - To save shapes in xml file and load it later. 
-    
-## user manual :
-  
